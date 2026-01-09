@@ -67,7 +67,9 @@ export function GameModal({ isOpen, onClose }: GameModalProps) {
                     className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#8B7BA8] focus:outline-none transition-colors mb-3"
                   />
                   <a
-                    href="#"
+                    href="https://fp-lajudie.fr/67"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="block w-full bg-gradient-to-r from-[#8B7BA8] to-[#E97BA0] hover:from-[#7A6A97] hover:to-[#d86a8f] text-white py-4 rounded-xl transition-all transform hover:scale-105 active:scale-95 text-center font-semibold shadow-lg"
                   >
                     <span className="inline-flex items-center gap-2">

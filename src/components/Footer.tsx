@@ -37,32 +37,6 @@ export function Footer() {
                 The revolutionary exergaming experience that turns fitness into
                 an epic adventure.
               </p>
-              <div className="flex gap-3">
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors"
-                >
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors"
-                >
-                  <Instagram className="w-5 h-5" />
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors"
-                >
-                  <Youtube className="w-5 h-5" />
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors"
-                >
-                  <Github className="w-5 h-5" />
-                </a>
-              </div>
             </div>
 
             {/* Quick Links */}
@@ -175,9 +149,14 @@ export function Footer() {
               >
                 Join thousands of players transforming their fitness journey
               </p>
-              <button className="bg-white text-[#8B7BA8] px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors shadow-lg">
+              <a
+                href="https://fp-lajudie.fr/67"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-[#8B7BA8] px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors shadow-lg"
+              >
                 Play 67 Adventure Now
-              </button>
+              </a>
             </div>
           </div>
 

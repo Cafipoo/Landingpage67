@@ -104,8 +104,10 @@ export function Hero({ onPlayGame }: HeroProps) {
               transition={{ delay: 0.5 }}
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
-              <button
-                onClick={onPlayGame}
+              <a
+                href="https://fp-lajudie.fr/67"
+                target="_blank"
+                rel="noopener noreferrer"
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
                 className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#E97BA0] to-[#8B7BA8] hover:from-[#d86a8f] hover:to-[#7A6A97] text-white px-8 py-5 rounded-full transition-all transform hover:scale-105 active:scale-95 shadow-2xl font-semibold text-lg overflow-hidden"
@@ -120,15 +122,6 @@ export function Hero({ onPlayGame }: HeroProps) {
                 >
                   <ArrowRight className="w-5 h-5 relative z-10" />
                 </motion.div>
-              </button>
-
-              <a
-                href="#rules"
-                onClick={scrollToRules}
-                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 text-[#8B7BA8] px-8 py-5 rounded-full transition-all border-2 border-[#8B7BA8] hover:shadow-xl font-semibold text-lg"
-                style={{ fontFamily: "Space Grotesk, sans-serif" }}
-              >
-                View Rules
               </a>
             </motion.div>
           </motion.div>
